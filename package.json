@@ -1,0 +1,28 @@
+{
+  "name": "sequence-planner-core",
+  "version": "1.0.0",
+  "description": "装配序列规划核心算法 CLI",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlniu14/sequence-planner-core.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jlniu14/sequence-planner-core/issues"
+  },
+  "homepage": "https://github.com/jlniu14/sequence-planner-core#readme",
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}
